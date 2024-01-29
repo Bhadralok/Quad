@@ -1,0 +1,135 @@
+<!DOCTYPE HTML>
+<head> 
+
+
+
+    <style>
+        *{
+            Padding:0px;
+            Margin:0px;
+        }
+        .main-div{
+            Display: flex;
+            Justify-content: space-between;
+            Background: linear-gradient(purple, #702670);
+            Color: white;
+            Padding-top: 5px;
+            Padding-bottom:5px;
+            Margin-bottom: 10px;
+        }
+        p{
+            Padding-top:  2px;
+            Padding-right: 20px;
+        }
+        h2{
+            Padding-left: 12px;
+            Font-weight: 400;
+            Font-size: 20px;
+        }
+        .sub-div{
+            
+            Border-radius: 5px;
+            Width:400px;
+            Height:300px;
+            Margin-left:-2px;
+            Padding-top: 20px;
+            Padding-left: 20px;
+        }
+        .username{
+            Width: 380px;
+            Height: 30px;
+            Margin-bottom: 24px;  
+            Font-size:20px;
+        }
+        .username:focus{
+            Box-shadow: 1px 1px 10px rgba(100, 149, 237, 1);
+            Outline:white;
+            border: 1px solid #007bff;
+            Border-radius:2px;
+            Opacity:0.6;
+            Padding: 0 0 0 10px;
+        }
+        h1{
+            Padding-bottom: 35px; 
+            Font-weight: 500;
+               
+        }
+        .sub-div p{
+            Margin-top: -25px;
+            Color: red;
+            Margin-bottom: 
+        }
+        .login{
+            Margin-top: 25px;
+            Width: 60px;
+            Height: 30px;
+            Background: linear-gradient(#4E97D1, #3E77B6 );
+            Border: none;
+            Color:white;
+            Border-radius: 5px;
+            Text-shadow: 1px 1px 2px rgba(0,0,0,0.9);
+        }
+        .bottom-div{
+            Margin: 0 0 0 20px;
+            Width:400px;
+            Height: 380px;
+        }
+        footer{
+            Text-align:right;
+            Background-color: #eeeeee;
+            Height:50px;
+            Padding: 10px 0 0 0;
+        }
+        Main{
+            Border:1px solid lightgrey;
+        }
+        .green{
+            Background: linear-gradient(#49AF4A, #42944C);
+            Border:none;
+            Padding: 4px 5px 4px 5px;
+            Color: white;
+            Border-radius: 5px;
+            Text-shadow: 1px 1px 2px rgba(0,0,0,0.9);
+        }
+    </style>
+</head>
+<body>
+    
+    <header class="body-header">
+    
+        <div class="main-div">
+           <h2> UNIBEN </h2>
+           <p>Menu</p>
+           
+        </div>
+        
+    </header>
+ 
+ 
+    <main>
+        <div class='sub-div')>
+            <h1>Login</h1>
+           <label> User name or Id </label>
+           <br>
+           <input type='text' class='username'>
+           
+           <br>
+           <label>Password</label>
+           <br>
+           <input type='password' class='username'>
+           <p>Note: User name. Ids and password are case sensitive</p>
+           <input type='submit' value='Login' class='login'>
+        </div>
+            <div class="bottom-div">
+            <p> Don't forget to logout or exit your browser whe you're done, if you're having trouble logging in, make sure to enable cookie in your browser. </p><br>
+            <p> You don't have an account because you're a fresh student or your student record has just been created? <input type="submit" value="initialize your student account" class="green"></p><br>
+            <p> Or simply forgot your student ID, applicant ID or password? <input type="submit" value="Request a new password" class="green"></p><br>
+            <p>You are student Parents and want to monitor study progress of your child? <input type="submit" value="Request a temporary parents password" class="green">
+            <p>Prerequisite for getting parents access is that you have a valid email address and that this address is has been entered by the student into the parents' email address field</p>
+            </div>
+    </main>
+    <footer> 
+        <p>Kofa-Student Management System<br> Copyright &copy; WAeUP Group 2023</p>
+    </footer>
+
+</body>
